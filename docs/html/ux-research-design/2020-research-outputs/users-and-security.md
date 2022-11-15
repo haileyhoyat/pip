@@ -6,7 +6,7 @@ We asked participants about their behaviours and practices in terms of the secur
 
 We asked participants to tell us how often they:
 
-1. carry out a code audit of the Python software they install with pip
+1. Carry out a code audit of the Python software they install with pip
 2. Think about the security and integrity of the (Python) software they install (with pip)
 3. Think about the security and integrity of the (Python) code they create
 
