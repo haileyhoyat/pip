@@ -10,7 +10,7 @@
 - The visual inspirations and references submitted correspond with these above results.
 
 **Mature or youthful?**
-
+(broken image)
 ![Design%20brief%20for%20pip%20logo%2079fffcb1ff5641af9fb97a70b1a2358b/Screen_Shot_2020-11-19_at_16.30.05.png](Design%20brief%20for%20pip%20logo%2079fffcb1ff5641af9fb97a70b1a2358b/Screen_Shot_2020-11-19_at_16.30.05.png)
 
 1. Very mature
