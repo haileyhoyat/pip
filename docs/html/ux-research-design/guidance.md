@@ -9,13 +9,13 @@ User-centered design (UCD) or human-centered design (HCD) is an iterative proces
 For the pip project, UX research and design can be used to:
 
 - Develop a deeper understanding of pip's users, the context in which they use pip and the challenges that they face
-- Inform the design of new or existing pip features, so that pip us more usable and accessible. This may include improving pip's output (including error messages), controls (e.g. commands and flags) and documentation
+- Inform the design of new or existing pip features, so that pip is more usable and accessible. This may include improving pip's output (including error messages), controls (e.g. commands and flags) and documentation
 - Help pip's development team prioritize feature requests based on user needs
 
 At a high level, the UX research and design process is comprised of:
 
 1. **[Research](#research)**, where a variety of techniques are used (e.g.[surveys](#surveys) and [interviews](#interviews)) to learn about users and what they want from the tools they use
-2. **[Design](#design)**, where solutions are proposed to response to the research conducted. UX research and design is conducted iteratively, with design proposals (i.e. [prototypes](#prototypes)) tested with users to validate that they are effective in meeting users' needs. Often, it is necessary to complete several cycles of research, design and validation to find a solution that works:
+2. **[Design](#design)**, where solutions are proposed to respond to the research conducted. UX research and design is conducted iteratively, with design proposals (i.e. [prototypes](#prototypes)) tested with users to validate that they are effective in meeting users' needs. Often, it is necessary to complete several cycles of research, design and validation to find a solution that works:
 
 ![Graphic showing an iterative process of Research, Make (Design), Validate, around user goals and needs.](https://user-images.githubusercontent.com/3323703/124515613-c5bae880-ddd7-11eb-99d6-35c0a7522c7a.png)
 
@@ -47,7 +47,7 @@ There are many ways to engage users in open source projects, and sometimes input
 - _Testing_ — good to evaluate an issue or validate a design idea
 - _Open issue queues_ (e.g. GitHub issues) & support ticket systems — great data source to understand common challenges
 - _Forums or discussion tools_ — great data source to understand common challenges or engage broader community in open discussion
-- _Conferences and events_ — great opportunity to go lightweight interviews or testing of specific features
+- _Conferences and events_ — great opportunity to do lightweight interviews or testing of specific features
 
 When running [UX research on pip in 2020](research-results), we found that surveys and interviews were particularly useful tools to engage with pip's users. Some general guidelines, as well as pip-specific recommendations are below.
 
@@ -218,7 +218,7 @@ Below is a brief guide to running an interview for pip:
         </ul>
       </li>
       <li>
-        <em>Exploratory</em> — These questions are an invitation to the interview-ee to think creatively about their situation, and are best left for the end of the interview. Careful, though – suggestions from a single person are rarely the answer to your design problem, and you need to be clear to them that you're just collecting ideas at this point.<br/>
+        <em>Exploratory</em> — These questions are an invitation to the interviewee to think creatively about their situation, and are best left for the end of the interview. Careful, though – suggestions from a single person are rarely the answer to your design problem, and you need to be clear to them that you're just collecting ideas at this point.<br/>
         <ul>
           <li>How would you change…</li>
           <li>What would happen if…</li>
@@ -229,7 +229,7 @@ Below is a brief guide to running an interview for pip:
   </li>
   <li>
     <strong>Pilot interview with 1-2 people & modify based on their feedback</strong>
-  <li>
+  </li>
   <li>
     <strong>Determine how to do outreach for interviews</strong><br/>
     <ul>
@@ -253,7 +253,7 @@ Here is an example user interview script used for speaking to users about pip's 
 > - Firstly thank you for giving me your time and for your continued involvement.
 > - The purpose of this interview is to better understand how pip's documentation is perceived and used by Python community members
 > - The interview will take approximately 30 minutes. If you don't understand any of the questions please ask me to  repeat or rephrase. If you don't have a good answer, feel free to tell me to skip.
-> - I will be taking notes. These will be shared on GitHub or the pip docs, but we will remove any identifying data to > protect your anonymity
+> - I will be taking notes. These will be shared on GitHub or the pip docs, but we will remove any identifying data to protect your anonymity
 > - Please be honest - your feedback can help us make pip better. I won't be offended by anything you have to say :)
 > - (optional) Do you mind if I record this session?
 >
@@ -312,15 +312,9 @@ As part of the [2020 UX Work](/research-results#2020-research), we published a f
 We found Twitter to be a very effective platform for engaging with the Python community and drive participation in UX research. We recommend:
 
 1. Asking [ThePSF](https://twitter.com/ThePSF), [PyPA](https://twitter.com/ThePyPA) and [PyPI](https://twitter.com/pypi) to retweet calls for survey and interview participation
-2. Asking specific individuals (who have reach within specific communities, or general followings within the Python community) to retweet.
+2. Asking specific individuals (who have reach within specific communities, or general followings within the Python community) to retweet
 3. Explicitly asking for retweets within tweets
 4. Responding to users within Twitter
-
-#### Not recommended: Forums (Discourse, etc)
-
-We used [discuss.python.org](https://discuss.python.org/) several times, posting to the [packaging forum](https://discuss.python.org/c/packaging/14) to ask packaging maintainers about their views on pip's functionality. Unfortunately, this was not as fruitful as we hoped, with very few responses. We found that engaging with packaging maintainers via Twitter was more effective.
-
-Posting surveys on Reddit was also not as useful as we had expected. If the user posting the survey or call for research participation does not have significant credit on Reddit, then the posting process itself can be challenging. Overall we did not see as much engagement in surveys or interviews come from Reddit relative to other outreach means.
 
 #### Recommended: Specific Interest Groups
 
@@ -331,7 +325,13 @@ Due to the 2020 Global Pandemic we were unable to engage with users via PyCon (o
 
 #### Worth Exploring: Adding a prompt/path into pip's 'help' command
 
-We didn't have a chance to explore this opportunity, but the idea came up during workshops in December 2020 with Pypa Maintainers, and could be a great way to engage users and help point them towards opportunities to contribute.
+We didn't have a chance to explore this opportunity, but the idea came up during workshops in December 2020 with PyPa Maintainers, and could be a great way to engage users and help point them towards opportunities to contribute.
+    
+#### Not Recommended: Forums (Discourse, etc)
+
+We used [discuss.python.org](https://discuss.python.org/) several times, posting to the [packaging forum](https://discuss.python.org/c/packaging/14) to ask packaging maintainers about their views on pip's functionality. Unfortunately, this was not as fruitful as we hoped, with very few responses. We found that engaging with packaging maintainers via Twitter was more effective.
+
+Posting surveys on Reddit was also not as useful as we had expected. If the user posting the survey or call for research participation does not have significant credit on Reddit, then the posting process itself can be challenging. Overall we did not see as much engagement in surveys or interviews come from Reddit relative to other outreach means.
 
 ## <a name="design"></a> Design / User Interface Design
 
@@ -347,10 +347,10 @@ Designing for pip includes:
 
 There are many interaction design principles that help designers design great experiences. Nielsen Norman's [10 Usability Heuristics for User Interface Design](https://www.nngroup.com/articles/ten-usability-heuristics) is a great place to start.  Here are some of the ways these principles apply to pip:
 
-- Visibility of system status: ensure all commands result in clear feedback that is relevant to the user (but do not overload the user with too much information (see "Aesthetic and minimalist design")
+- Visibility of system status: ensure all commands result in clear feedback that is relevant to the user but do not overload the user with too much information (see "Aesthetic and minimalist design")
 - Consistency and standards: when writing interfaces, strive for consistency with the rest of the Python packaging ecosystem, and (where possible) adopt familiar patterns from other CLI tools
 - Aesthetic and minimalist design: remove noise from CLI output to ensure the user can find the most important information
-- Help users recognize, diagnose, and recover from errors: clearly label and explain errors: what happened, why, and what the user can do to try and fix the error. Link to documentation where you need to provide a detailed explanation.
+- Help users recognize, diagnose, and recover from errors: clearly label and explain errors (e.g. what happened, why, and what the user can do to try and fix the error). Link to documentation where you need to provide a detailed explanation.
 - Help and documentation: provide help in context and ensure that documentation is task-focussed
 
 #### Additional Resources
@@ -366,7 +366,7 @@ Tools that are frequently used in the design process are personas and guidelines
 
 _For a more in-depth overview of personas and using them in open source projects, this [resource from Simply Secure](https://simplysecure.org/blog/personas) may be helpful._
 
-Personas are abstractions or archetypes of people who might use your tool. It often takes the form of a quick portrait including things like — name, age range, job title, enough to give you a sense of who this person is. You can capture this information into a [persona template](https://simplysecure.org/resources/persona-template-tech.pdf) and share them with your open source community as a resource see [examples from the Gitlab UX Team](https://about.gitlab.com/handbook/marketing/strategic-marketing/roles-personas/).
+Personas are abstractions or archetypes of people who might use your tool. It often takes the form of a quick portrait including things like — name, age range, job title, enough to give you a sense of who this person is. You can capture this information into a [persona template](https://simplysecure.org/resources/persona-template-tech.pdf) and share them with your open source community as a resource. See [examples from the Gitlab UX Team](https://about.gitlab.com/handbook/marketing/strategic-marketing/roles-personas/).
 
 Personas are particularly useful to help ground a feature design in priorities for specific needs of specific users. This helps provide useful constraints into the design process, so that you can focus your work, and not try to make every feature a swiss army knife of solutions for every user.
 
@@ -402,7 +402,7 @@ The following copywriting Style Guides may be useful to the pip team:
 
 ### General Resources
 
-- Heroku talk on design of their CLI tools ([video](https://www.youtube.com/watch?v=PHiDG-_XoRk) transcript)
+- [Heroku talk on design of their CLI tools](https://www.youtube.com/watch?v=PHiDG-_XoRk)
 - [Simply Secure: UX Starter Pack](https://simplysecure.org/ux-starter-pack/)
 - [Simply Secure: Feedback Gathering Guide](https://simplysecure.org/blog/feedback-gathering-guide)
 - [Simply Secure: Getting Quick Tool Feedback](https://simplysecure.org/blog/design-spot-tool-feedback)
